@@ -1,0 +1,44 @@
+header{
+	background: white;
+	padding: 10px;
+}
+header h1{
+	margin: 0;
+	text-align: center;
+}
+body{
+	background: #c3c3c3;
+	margin: 0;
+	padding: 0;
+}
+div {box-sizing: border-box;
+}
+div.box1{
+	background: white;
+	margin-top: 10px;
+}
+div .main{
+	width: 700px;
+	margin: auto;
+}
+div .main img{
+	width: 600px;
+	margin:auto;
+	display: block;
+}
+ div.box1 .encabezado1 div:first-child {
+	display: inline-block;
+	width: 80%;
+	
+}
+div .box1 p, div .box1 h2 {
+	padding: 10px;
+}
+div.box1 .encabezado1 div:last-child {
+	display: inline-block;
+	width: 20%;
+	text-align: right;
+	padding: 10px;
+	color:gray;
+
+}
